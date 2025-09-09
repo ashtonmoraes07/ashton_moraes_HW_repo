@@ -1,0 +1,242 @@
+    1  student
+    2  passwd
+    3  ssh ashtonm@172.20.25.9
+    4  pwd
+    5  cd ..
+    6  ls
+    7  cd jelenag/
+    8  ls
+    9  cd ../ashtonm/
+   10  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | wc -1
+   11  % ssh ashtonm@170.20.25.9 
+   12  % ssh ashtonm@172.20.25.9
+   13  cd -
+   14  pwd
+   15  cd..
+   16  cd ..
+   17  pwd
+   18  amazon_reviews_multilingual_US_v1_00.tsv.zip
+   19  ls
+   20  ashtonm
+   21  ls
+   22  ls amazon_reviews_multilingual_US_v1_00.tsv.zip
+   23  cd ..
+   24  ls amazon_reviews_miltilingual_US_v1_00.tsv.zip
+   25  pwd
+   26  /mnt/scratch/CS131_cd ..
+   27  cd ..
+   28  pwd
+   29  cd /mnt/scratch/CS131_jelenag/
+   30  ls
+   31  ls amazon_reviews_multilingual_US_v1_00.tsv.zip
+   32  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | head -5
+   33  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | tail -5
+   34  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | wc -1
+   35  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | wc -l
+   36  ~~pwd
+   37  cd/mnt/scratch/CS131_jeleclear
+   38  pwd
+   39  cd ..
+   40  /mnt/scratch/CS131_cd ..
+   41  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip |head -50
+   42  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip |head -50 > ~/aamzon_reviews_50.tsv
+   43  ls ~
+   44  grep "greatest" amazon_reviews_mutilingual_US_v1_00_10k.tsv |wc -l
+   45  pwd
+   46  /mnt/scratch/CS131_jelenag/amazon_reviews_mutlilingual_US_v1_00.tsv.zip
+   47  amazon_reviews_mutlilingual_US_v1_00.tsv.zip
+   48  cd ..
+   49  ls
+   50  mv 
+   51  pwd
+   52  pwd
+   53  cd ..
+   54  cd /mnt/scratch/CS131_jelenag/
+   55  ls
+   56  ;s amazon_reviews_multilingual_US_v1_00.tsv.zip
+   57  ls amazon_reviews_muttilingual_US_v1_00.tsv.zip
+   58  ls amazon_reviews_multilingual_US_v1_00.tsv.zip
+   59  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | head -5
+   60  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | tail -5
+   61  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | wc -1
+   62  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | wc -l
+   63  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | wc 
+   64  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | head -50 > ~/amazon_reviews_50.tsv
+   65  ls ~
+   66  grep "greatest" amazon_reviews_multilingual_US_v1_00_10k.tsv | wc -l
+   67  pwd
+   68  cd ..
+   69  ls amazon_reviews_muttilingual_US_v1_00.tsv.zip
+   70  /mnt/scratch/CS131_jelenag/amazon_reviews_mutlilingual_US_v1_00.tsv.zip
+   71  amazon_reviews_multilingual_US_00.tsv.zip
+   72  ls amazon_reviews_muttilingual_US_v1_00.tsv.zip
+   73  /mnt/scratch/CS131_jelenag/amazon_reviews_mutlilingual_US_v1_00.tsv.zip
+   74  cd ..
+   75  pwd
+   76  ls
+   77  mkdir homework_assignments
+   78  cd homework_assignments
+   79  mkdir homework_assignments
+   80  cd homework_assignments
+   81  script <username>_h2.log
+   82  script ashtonmoraes07_h2.log
+   83  scp -r username@172.20.25.9:/path/to/hw2/<username>_h2.log ./
+   84  script ashtonm@172.20.25.9_h2.log
+   85  pwd
+   86  ls
+   87  mkdir homework_assignments
+   88  cd homework_assignments
+   89  mkdir hw2
+   90  pwd
+   91  ls
+   92  mkdir hw2
+   93  cd hw2
+   94  history > ashtonmoraes@172.20.25.9_h2.log
+   95  cat ashtonmoraes@172.20.25.9_h2.log 
+   96  exit
+   97  script ashtonm@172.20.25.9.h2.log
+   98  scp -r ashtonm@172.20.25.9:/mnt/scratch/CS131_jelenag/students/
+   99  ;s ~/homework_assignments/hw2
+  100  ls ~/homework_assignments/hw2
+  101  script ashtonm_h2.log
+  102  pwd 
+  103  ls
+  104  mkdir homework_assignments
+  105  cd homework_assignments
+  106  mkdir -p hw2
+  107  mv ashtonm_h2.log hw2/
+  108  ls -1 ~ | grep h2.log
+  109  mv/full/path/to/ashtonm_h2.log ~/homework_assignments/hw2/
+  110  find ~ name "*h2.log"
+  111  pwd
+  112  ls
+  113  mkdir -p homework_assignments
+  114  cd homework_assignments
+  115  exit
+  116  script ashtonm_h2.log
+  117  mkdir -p ~/homework_assignments/hw2
+  118  mv ~/ashtonm_h2.log ~/homework_assignments/hw2/
+  119  ls -l ~/homework_assignments/hw2/
+  120  more ~/homework_assignments/hw2/ashtonm_h2.log
+  121  scp -r ashtonm@172.20.25.9:/mnt/scratch/CS131_jelenag/students/ashtonm/home_assignments/hw2 ./
+  122  scp -r ashtonm@172.20.25.9:/mnt/scratch/CS131_jelenag/students/ashtonm/homework_assignments/hw2 ./
+  123  pwd
+  124  ls
+  125  exit
+  126  pwd
+  127  ls
+  128  mkdir homework_assignments
+  129  cd homework_assignments
+  130  exit
+  131  cd ~/home_assignments/hw2
+  132  ls -l
+  133  ashtonm_h2.log
+  134  scp -r ashtonm@172.20.25.9:~/homework_assignments/hw2 ~/Desktop/
+  135  cd ~/homework_assignments/hw2
+  136  ls -l
+  137  scp ashtonm@172.20.25.9:~/homework_assignments/hw2/ashtonm_h2.log ~/Downloads/
+  138  scp ashtonm@172.20.25.9:~/homework_assignments/hw2/ashtonm_h2.log /c/Users/ashto/Downloads/
+  139  cd ~/homework_assignments/hw2
+  140  cat ashtonm_h2.log
+  141  cd ~
+  142  mv ashtonm_h2.log homework_assignments/hw2/
+  143  ls
+  144  pwd
+  145  script ashtonm_h2.log
+  146  cd ~
+  147  ls
+  148  rm aamzon_reviews_50.tsv 
+  149  rm ashtonm@172.20.25.9_h2.log ashtonm@172.20.25.9.h2.log ashtonmoraes07_h2.log ashtonm_h2.log
+  150  rm -r homework_assignments
+  151  ls
+  152  cd ~
+  153  cd hw2
+  154  script ashtonm_h2.log
+  155  ls -l
+  156  ashtonm_h2.log
+  157  scp -r ashtonm@172.20.25.9:/mnt/scratch/CS131_jelenag/students/ashtonm/home_assignments/hw2 ./
+  158  cd ~
+  159  pwd
+  160  ls -l
+  161  /home/ashtonm/hw2/ashtonm_h2.log
+  162  ls
+  163  cd<team3-finance-analysis>
+  164  cd <team3-finance-analysis>
+  165  cd ~/team3-finance-analysis/data
+  166  mkdir -p ~/team3-finance-analysis/data
+  167  cd ~/team3-finance-analysis/data
+  168  kaggle datasets download miadul/personal-finance-ml-dataset -p . --unzip
+  169  kaggle datasets dowload miadul/personal-finance-ml-dataset -p . --unzip
+  170  scp /c/Users/Ashton/Downloads/archive/synthetic_personal_finance_dataset ashtonm@172.20.25.9:~team3-finance-analysis/data/
+  171  scp -r /c/Users/Ashton/Downloads/archive/synthetic_personal_finance_dataset ashtonm@172.20.25.9:~team3-finance-analysis/data/
+  172  it says no such directory found
+  173  /c/Users/Ashton/Downloads/Archive/synthetic_personal_finance_dataset
+  174  ls /c/Users/Ashton/Downloads/Archive
+  175  vi run_test.sh
+  176  bash -x run_test.sh
+  177  vi run_test.sh
+  178  vi
+  179  unzip amazon_reviews_multilingual_US_v1_00.tsv.zip
+  180  exit
+  181  /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip
+  182  ls
+  183  mkdir -p /mnt/scratch/CS131_jelenag/students/ashtonm/hw03
+  184  cd hw03
+  185  script hw03_session.txt
+  186  rm hw03_session.txt
+  187  rm -i hw03_session.txt
+  188  pwd
+  189  ls -1
+  190  ls -l
+  191  ls
+  192  pwd
+  193  cd students/jelenag/
+  194  pwd
+  195  ls
+  196  ls amazon_reviews_multilingual_US_v1_00.tsv
+  197  ls amazon_reviws_multilingual_US_v1_00.tsv.zip
+  198  /mnt/scratch/CS131_jelenag/
+  199  ls
+  200  ls ~/.local/share/Trash/files
+  201  ls /backup
+  202  cd students/jelenag/
+  203  ls
+  204  cd ~/datasets
+  205  cd /mnt/scratch/CS131_jelenag/
+  206  ls
+  207  ls
+  208  ls /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip
+  209  unzip /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip
+  210  head -n 1 amazon_reviews_multilingual_US_v1_00.tsv > amazon_reviews_10k_random.tsv
+  211  head -n 1 amazon_reviews_multilingual_US_v1_00.tsv | shuf -n 10000 >> amazon_reviews_10k_random.tsv
+  212  wc -l amazon_reviews_10k_random.tsv
+  213  rm -rf /mnt/scratch/CS131_jelenag/students/ashtonm/hw03
+  214  ls
+  215  exit
+  216  mkdir -p /mnt/scratch/CS131_jelenag/students/ashtonm/hw03
+  217  cd /mnt/scratch/CS131_jelenag/students/ashtonm/hw03
+  218  script hw03_session.txt
+  219  rm -rf /mnt/scratch/CS131_jelenag/students/ashtonm/hw03
+  220  ls
+  221  cd ..
+  222  ls
+  223  ls /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip
+  224  ls
+  225  unzip /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip
+  226  head -n 1 amazon_reviews_multilingual_US_v1_00.tsv > amazon_reviews_10k_random.tsv
+  227  tail -n +2 amazon_reviews_multilingual_US_v1_00.tsv | shuf -n 10000 >> amazon_reviews_10k_random.tsv 
+  228  wc -l amazon_reviews_10k_random.tsv 
+  229  tail -n +2 amazon_reviews_10k_random.tsv | wc -l
+  230  echo "Including header:" > counts.txt
+  231  wc -l amazon_reviews_10k_random.tsv >> counts.txt 
+  232  echo "Excluding header:" >> counts.txt 
+  233  tail -n +2 amazon_reviews_10k_random.tsv | wc -l >> counts.txt 
+  234  cut -f8 amazon_reviews_10k_random.tsv |tail -n +2 | sort | uniq -c | sort -nr > hist_star_rating.txt
+  235  cut -f2 amazon_reviews_10k_random.tsv | tail -n +2 | sort | uniq -c | sort -nr | head -10 > top_customers.txt
+  236  cut -f4,6 amazon_reviews_10k_random.tsv | tail -n +2 | sort | uniq -c | sort -nr | head -10 > top_products.txt
+  237  cut -f7 amazon_reviews_10k_random.tsv | tail -n +2 | sort | uniq -c | sort -nr > hist_categories.txt
+  238  vi README.md
+  239  history > hw03_history.txt
+  240  git clone git@github.com:sjsu-cs131-f25/ashton_moraes_HW_repo.git
+  241  cd ashton_moraes_HW_repo
+  242  history > my_session.log
