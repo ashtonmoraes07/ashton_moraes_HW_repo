@@ -1,0 +1,1000 @@
+   95  pwd
+   96  ls
+   97  cd 
+   98  pwd
+   99  mkdir 
+  100  cat hw2
+  101  ls
+  102  cd
+  103  pwd
+  104  cat Desktop
+  105  cat hw03_outputs
+  106  history > my_commands.txt
+  107  pwd 
+  108  cd /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip
+  109  cd .
+  110  cd ..
+  111  cd /mnt/scratch/CS_jelenag/
+  112  pwd
+  113  cd .
+  114  cd ..
+  115  cd
+  116  pwd
+  117  cd /mnt/CS131_jelenag/
+  118  ls
+  119  cd /mnt
+  120  cd /mnt/scratch/CS131_jelenag
+  121  ls
+  122  cd /mnt/scratch/CS131_jelenag/amazon_reviews_mutltilingual_US_v1_00.tsv.zip
+  123  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip  | head -5
+  124  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | tail -5
+  125  \t
+  126  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | wc -l
+  127  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > amazon_multilingual_US_v1_00_10k.tsv
+  128  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > amazon_multilingual_US_vl_00_10k.tsv
+  129  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > amazon_multilingual_US_v1_00_10K.tsv
+  130  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | head -10000 > amazon_multilingual_US_v1_00_10K.tsv
+  131  grep "greatest" amazon_reviews_multilingual_US_v1_00_10K.tsv |head
+  132  grep -i "greatest" amazon_reviews_multilingual_US_v1_00_10K.tsv |head
+  133  grep -i "greatest" amazon_reviews_multilingual_US_v1_00_10K.tsv |head | wc -l
+  134  grep -ic "greatest" amazon_reviews_multilingual_US_v1_00_10K.tsv |head | wc -l
+  135  pwd
+  136  cd
+  137  pwd
+  138  cd /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip
+  139  cd /mnt/scratch/CS131_jelenag/students/ashtonm/amazon_reviews_multilingual_US_v1_00.tsv.zip
+  140  cd
+  141  cd /mnt/scratch/CS131_jelenag/
+  142  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | head -5
+  143  unzip -p amazon_reviews_multilingual_US_v1_00.tsv.zip | tail -5
+  144  pwd
+  145  cd /mnt/scratch//CS131_jelenag/
+  146  head -n 5 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv
+  147  cut -f7 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort | uniq -c | sort -nr | head -n 1
+  148  cut -f7 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | wc -1
+  149  cut -f7 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | wc -l
+  150  pwd
+  151  cd .
+  152  cd ..
+  153  cd .
+  154  cd /mnt/scratch/CS131_jelenag/
+  155  ls
+  156  cd /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv
+  157  cd quiz_amazon_reviews.tsv
+  158  ls
+  159  cat /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv 
+  160  ls
+  161  cat /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv 
+  162  head /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv 
+  163  pwd
+  164  head /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv 
+  165  cut -d $'\t' -f7 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv 
+  166  cut -d $'\t' -f7 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort | uniq -c 
+  167  cut -d $'\t' -f7 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort -nr | uniq -c | head -1 
+  168  cut -d $'\t' -f7 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort -nr | uniq -c | head
+  169  cut -d $'\t' -f7 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort -nr | uniq | head
+  170  cut -d $'\t' -f7 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | wc -1
+  171  cut -d $'\t' -f7 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | wc -l
+  172  cut -d $'\t' -f7 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort | uniq -c | wc -l
+  173  head /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv 
+  174  cut -d $'\t' -f3 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | wc -l
+  175  cut -d $'\t' -f3 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort | uniq -c | wc -l
+  176  cut -d $'\t' -f14 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort | uniq -c | wc -l
+  177  cut -d $'\t' -f13 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort | uniq -c | wc -l
+  178  cut -d $'\t' -f2 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort | uniq -c | wc -l
+  179  cut -d $'\t' -f16 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort | uniq -c | wc -l
+  180  cut -d $'\t' -f15 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort | uniq -c | wc -l
+  181  cut -d $'\t' -f15 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort -nr | head -1
+  182  cut -d $'\t' -f2 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort -nr | head -1
+  183  cut -d $'\t' -f2 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv | sort | sort -nr | head -1
+  184  exit
+  185  wpd
+  186  pwd
+  187  cd /mnt/scratch/CS131_jelenag/
+  188  cut -d '\t' -f4 amazon_reviews_10k_random.tsv | sort | uniq | wc -l
+  189  ls
+  190  cut -d '\t' -f4 amazon_reviews_10k_random.tsv | sort | uniq | wc -l
+  191  cut -d $ '\t' -f4 amazon_reviews_10k_random.tsv | sort | uniq | wc -l
+  192  cut -d $ '\t' -f6 amazon_reviews_10k_random.tsv | sort | uniq | wc -l
+  193  cut -d $ '\t' -f8 amazon_reviews_10k_random.tsv | sort | uniq | wc -l
+  194  cut -d $ '\t' -f8 amazon_reviews_10k_random.tsv | sort | uniq -c | sort -nr | head
+  195  ls
+  196  /mnt/scratch/CS131_jelenag/
+  197  cd /mnt/scratch/CS131_jelenag/
+  198  ls
+  199  ls reviews.txt
+  200  cat reviews.tsv 
+  201  ls *.txt
+  202  ls ???.txt
+  203  ls [a-z]*
+  204  ls .[b]ashrc
+  205  ls
+  206  ls *.txt
+  207  ls ???.txt
+  208  ls [a-z]*
+  209  ls ???.txt
+  210  ls .[b]ashrc
+  211  ls .[!c]ashrc
+  212  cd ..
+  213  cd.
+  214  cd
+  215  ls .[b]ashrc
+  216  cd..
+  217  cd ..
+  218  ls
+  219  ls *.txt
+  220  cd ../..
+  221  ls
+  222  cd 
+  223  cd ..
+  224  ls
+  225  ls -a
+  226  ls -l
+  227  ls -lh
+  228  ls ..
+  229  ls /
+  230  ls 
+  231  ks *txt
+  232  ls *txt
+  233  cp /mnt/scratch/CS131_jelenag/
+  234  cd
+  235  cp
+  236  cd
+  237  cd /mnt/scratch/CS131_jelenag/
+  238  ls
+  239  ls reviews.tsv
+  240  unzip -p  personal-finance-ml-dataset.zip 
+  241  clear
+  242  ls
+  243  rm project_
+  244  ls
+  245  unzip -p personal-finance-ml-dataset.zip | shuf -n
+  246  unzip -p personal-finance-ml-dataset.zip | shuf -1000
+  247  exit
+  248  unzip -p personal-finance-ml-dataset.zip | shuf -n 1000
+  249  unzip -p personal-finance-ml-dataset.zip | shuf -n 1000 sample.tsv
+  250  ls
+  251  unzip -p personal-finance-ml-dataset.zip | shuf -n 1000 > sample.tsv
+  252  ls
+  253  cat sample.tsv 
+  254  cut -d ',' -f4 | sort | uniq -c | sort -nr > freq_education.txt
+  255  cat sample.tsv | cut -d ',' -f4 | sort | uniq -c | sort -nr > freq_education.txt
+  256  ls
+  257  cat freq_education.txt 
+  258  exit
+  259  cd /mnt/scratch/CS131_
+  260  cd /mnt/scratch/CS131_jelenag/
+  261  ls
+  262  cd
+  263  curl -L -o ./steam-games-dataset.zip https://www.kaggle.com/datasets/miadul/personal-finance-ml-datasepwd
+  264  pwd
+  265  cd ../..
+  266  ls
+  267  cd projects
+  268  ls
+  269  cd team03_sec3
+  270  ls
+  271  script project_ assignment_2
+  272  ls
+  273  script assignment_2.txt
+  274  git status
+  275  ls
+  276  git status
+  277  ls
+  278  git status
+  279  cd team3-finance-analysis/
+  280  ls
+  281  git branch
+  282  git pull
+  283  git pull origin main
+  284  git status
+  285  git pull
+  286  git status
+  287  git pull
+  288  exit 
+  289  ls
+  290  cd team3-finance-analysis/
+  291  ls
+  292  pwd
+  293  cd ../../projects/team03_sec3
+  294  cd ../../../projects/team03_sec3
+  295  ls
+  296  cd ashton
+  297  git clone git@github.com:sjsu-cs131-f25/team3-finance-analysis.git
+  298  ls 
+  299  pwd
+  300  git clone
+  301  git clone git@github.com:sjsu-cs131-f25/team3-finance-analysis.git
+  302  pwd
+  303  git clone git@github.com:sjsu-cs131-f25/team3-finance-analysis.git
+  304  lls
+  305  ls
+  306  cd ..
+  307  ls
+  308  mkdir ashton
+  309  cd ashton
+  310  git clone git@github.com:sjsu-cs131-f25/team3-finance-analysis.git
+  311  ls
+  312  clear
+  313  cd ..
+  314  ls
+  315  cd ashton
+  316  ls
+  317  cd team3-finance-analysis/
+  318  ls
+  319  git pull
+  320  git branch
+  321  git checkout -B assignment2_ashton
+  322  exit 
+  323  pwd
+  324  ls
+  325  cd my_commands.txt
+  326  ls my_commands.txt 
+  327  cat my_commands.txt
+  328  ls
+  329  cat team3-finance-analysis/
+  330  cd /mnt/scratch/CS131_jelenag/team-finance-analsysis/
+  331  cat team3-finance-analysis
+  332  cat team3-finance-analysis/
+  333  unzip -p steam-games-dataset.zip | shuf -1000
+  334  cd /mnt/scratch/CS131_jelenag/
+  335  ls
+  336  cd 
+  337  ls
+  338  cat team3-finance-analysis
+  339  unzip -l steam-games-dataset.zip
+  340  unzip -1 steam-games-dataset.zip
+  341  ls
+  342  cat hw2
+  343  cat homework_assignments
+  344  ls hw2
+  345  ls team3-finance-analysis
+  346  ls data
+  347  dataa
+  348  exit
+  349  ls 
+  350  ls my_commands.txt 
+  351  ls hw2
+  352  ls homework_assignments
+  353  ls team3-finance-analysis
+  354  ls data
+  355  ls *.csv
+  356  cd team3-finance-analysis
+  357  ls
+  358  ls data
+  359  ls -l data
+  360  unzip -p steam-games-dataset.zip
+  361  unzip steam-games-dataset.zip
+  362  unzip -p steam-games-dataset.zip | head -n 10
+  363  cd
+  364  ls
+  365  unzip steam-games-dataset.zip 
+  366  unzip -p steam-games-dataset.zip
+  367  cd 
+  368  cd
+  369  cd ..
+  370  ls
+  371  cd ..
+  372  ls
+  373  cd ..
+  374  ls
+  375  cd ..
+  376  ls
+  377  cd ../..
+  378  ls
+  379  cd ../../
+  380  ls
+  381  cd 
+  382  ls
+  383  cd team3-finance-analysis/
+  384  ls
+  385  cd data
+  386  ls
+  387  unzip -p steam-games-dataset.zip | shuf -1000
+  388  unzip -p steam-games-dataset.zip | shuf -n 1000
+  389  cd
+  390  ls
+  391  cd team3-finance-analysis/
+  392  ls
+  393  cd
+  394  ls
+  395  ls -lh
+  396  ls | grep steam-games-dataset.zip
+  397  ls -d */
+  398  find . -name "steam-games-dataset*"
+  399  cd
+  400  ls
+  401  ls 
+  402  unzip -p steam-games-dataset.zip
+  403  ls steam-games-dataset.zip 
+  404  unzip -p steam-games-dataset.zip 
+  405  cat steam-games-dataset.zip 
+  406  ls
+  407  unzip pwd
+  408  ls
+  409  pwd
+  410  cd..
+  411  cd
+  412  cd .
+  413  cd /mnt/scratch/CS131_jelenag/
+  414  cd /ashtonm
+  415  cd ..
+  416  cd /mnt/scratch/CS131_jelenag/ashtonm
+  417  cd
+  418  cd ..
+  419  cd .
+  420  cd ..
+  421  ls
+  422  ls 
+  423  cd 
+  424  ls
+  425  steam-games-dataset.zip team3-finance-analysis
+  426  ls 
+  427  cd team3-finance-analysis
+  428  ls
+  429  cd
+  430  cat team3-finance-analysis
+  431  mv ~/steam-games-dataset.zip 
+  432  ls 
+  433  cd team3-finance-analysis
+  434  ls
+  435  ls data
+  436  unzip -p steam-games-dataset.zip
+  437  data/
+  438  ls 
+  439  ls data
+  440  unzip ~/steam-games-dataset.zip 
+  441  unzip ~/steam-games-dataset.zip -d ~/team3-finance-analysis/data
+  442  ls ~/team3-finance-analysis/data
+  443  file ~/team3-finance-analysis/data/steam-games-dataset.zip
+  444  cd
+  445  unzip -l ~/team3-finance-analysis/data/steam-games-dataset.zip
+  446  ls
+  447  cd team3-finance-analysis
+  448  ls | grep steam-games-dataset.zip
+  449  rm steam-games-dataset.zip
+  450  cd
+  451  rm steam-games-dataset.zip 
+  452  ls
+  453  curl -L -o ./steam-games-dataset.zip https://www.kaggle.com/datasets/miadul/personal-finance-ml-dataset
+  454  ls
+  455  unzip -l steam-games-dataset.zip 
+  456  unzip -1 steam-games-dataset.zip 
+  457  ls
+  458  cd /mnt/scratch/CS131_jelenag/
+  459  cd 
+  460  ls team3-finance-analysis
+  461  ls
+  462  unzip -p steam-games-dataset.zip 
+  463  wc -l steam-games-dataset.zip 
+  464  ls -lh steam-games-dataset.zip 
+  465  exit
+  466  cd 
+  467  cd /mnt/scratch/CS131_jelenag/
+  468  cd projects/
+  469  ls
+  470  ls team03_sec2
+  471  unzip -p customer_shopping_data.csv
+  472  cd
+  473  cd ../..
+  474  cd..
+  475  cd ..
+  476  cd -
+  477  cd
+  478  pwd
+  479  cd ..
+  480  cd ../..
+  481  cd ~
+  482  cd
+  483  ls 
+  484  ls -a
+  485  ls -l
+  486  ls -lh
+  487  ls -lt
+  488  ls -li
+  489  ls ..
+  490  ls /
+  491  pwd
+  492  ls ..
+  493  ls /
+  494  ls /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv
+  495  ls /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip
+  496  cd ../../
+  497  cd ..
+  498  cd 
+  499  cd /mnt/scratch/
+  500  cp
+  501  cd
+  502  ls
+  503  cat steam-games-dataset.zip 
+  504  unzip steam-games-dataset.zip | head -5
+  505  unzip steam-games-dataset.zip | head -n 5
+  506  /word
+  507  u
+  508  l
+  509  grep -i great reviews.tsv | wc -l
+  510  grep -i great reviews.tsv | wc -1
+  511  cd 
+  512  cd ..
+  513  cd ../..
+  514  pwd
+  515  cd
+  516  ls
+  517  pwd
+  518  cd ../..
+  519  cd ../../..
+  520  l
+  521  cd
+  522  cd ../../..
+  523  cd ../..
+  524  cd /mnt/scratch/CS131_jelenag/
+  525  ls
+  526  grep -i great reviews.tsv | wc -l
+  527  grep ic great reviews.tsv
+  528  exit
+  529  grep -i great reviews.tsv | tee great_lines.txt | wc -1
+  530  cd /mnt/scratch/CS131_jelenag/
+  531  ls
+  532  grep -i great reviews.tsv | tee great_lines.txt | wc -1
+  533  cat reviews.tsv | grep -vi return | wc -1
+  534  cat reviews.tsv | grep -vi return | wc -l
+  535  cut -f6 reviews.tsv | grep -E "[0-9]$" | wc -l
+  536  cut -f8 reviews.tsv
+  537  cur -f8 reviews.tsv | sort | uniq -c | sort -nr
+  538  cut -f8 reviews.tsv | sort | uniq -c | sort -nr
+  539  cut -f6 reviews.tsv | sort | uniq | wc -l
+  540  cut -f2 reviews.tsv | sort | uniq -c | sort -nr | head -n 10
+  541  gg
+  542  bg %1
+  543  grep -i error reviews.tsv 
+  544  ls *.txt
+  545  ls [a-z]*
+  546  groups
+  547  ls
+  548  ls great_lines.txt
+  549  ls steam-games-dataset.zip 
+  550  cat steam-games-dataset.zip 
+  551  unzip -p steam-games-dataset.zip 
+  552  file steam-games-dataset.zip 
+  553  ls -lh steam-games-dataset.zip 
+  554  unzip -l steam-games-dataset.zip 
+  555  unzip -1 steam-games-dataset.zip 
+  556  rm steam-games-dataset.zip 
+  557  ls
+  558  cd team3-finance-analysis
+  559  wget 
+  560  wget https://www.kaggle.com/datasets/miadul/personal-finance-ml-dataset
+  561  curl -L -o ./steam-games-dataset.zip https://www.kaggle.com/datasets/miadul/personal-finance-ml-dataset
+  562  ls -lh
+  563  ls | grep steam-games-dataset.zip 
+  564  pwd
+  565  unzip -p steam-games-dataset.zip 
+  566  ls 
+  567  ls personal-finance-ml-dataset 
+  568  cat personal-finance-ml-dataset 
+  569  ls
+  570  unzip -l steam-games-dataset.zip 
+  571  ls
+  572  unzip -1 steam-games-dataset.zip 
+  573  unzip -l steam-games-dataset.zip 
+  574  cd
+  575  pwd
+  576  cd ashtonm
+  577  cd /mnt/scratch/CS131_jelenag/students/ashtonm
+  578  ls
+  579  ls team3-finance-analysis
+  580  ls 
+  581  unzip -l /team3-finance-analysis
+  582  ls 
+  583  cd team3-finance-analysis
+  584  ls
+  585  unzip -p steam-games-dataset.zip | head -n 10
+  586  file steam-games-dataset.zip 
+  587  ls
+  588  cat personal-finance-ml-dataset 
+  589  rm steam-games-dataset.zip 
+  590  ls
+  591  ls | grep steam-games-dataset.zip
+  592  rm -f steam-games-dataset.zip
+  593  rm personal-finance-ml-dataset 
+  594  ls
+  595  wget https://www.kaggle.com/api/v1/datasets/download/miadul/personal-finance-ml-dataset
+  596  curl -L -o ~/Downloads/personal-finance-ml-dataset.zip  https://www.kaggle.com/api/v1/datasets/download/miadul/personal-finance-ml-dataset
+  597  curl -L -o ./steam-games-dataset.zip https://www.kaggle.com/api/v1/datasets/download/miadul/personal-finance-ml-dataset
+  598  ls
+  599  unzip -l steam-games-dataset.zip 
+  600  ls steam-games-dataset.zip 
+  601  unzip -p steam-games-dataset.zip synthetic_personal_finance_dataset.csv | head -n 10
+  602  unzip -p steam-games-dataset.zip synthetic_personal_finance_dataset.csv 
+  603  ls
+  604  uzip -p steam-games_dataset.zip
+  605  pkill -f project_assignment_2.txt 
+  606  cd
+  607  cd ..
+  608  exit
+  609  cut -d ',' -f4 | sort | uniq -c | sort -nr > freq_education.txt
+  610  ls
+  611  cat freq_education.txt 
+  612  exit
+  613  cut -d ',' -f4 | sort | uniq -c | sort -nr > freq_education.txt
+  614  exit
+  615  ls
+  616  pwd
+  617  ls 
+  618  cd team3-finance-analysis/
+  619  ls
+  620  ls data
+  621  cat data
+  622  cd data
+  623  ls
+  624  cd
+  625  ls
+  626  cd team3-finance-analysis
+  627  ls
+  628  mkdir -p data/sample/
+  629  ls
+  630  cat data
+  631  unzip -p steam-games-dataset.zip | shuf -n 1000 > data/samples/samples_1000.txt
+  632  mkdir -p data/samples
+  633  ls
+  634  cat data
+  635  unzip -p steam-games-dataset.zip | shuf -n 1000 > data/sample_1000.txt
+  636  ls
+  637  cat data
+  638  ls data
+  639  ls sample
+  640  ls sample_1000.txt
+  641  mr sample 
+  642  ls samples
+  643  mr samples
+  644  ls
+  645  cd data
+  646  ls
+  647  ls sample
+  648  ls samples
+  649  ls sample_1000.txt 
+  650  cat sample_1000.txt 
+  651  ls 
+  652  rm sample
+  653  rm samples
+  654  ls
+  655  cd
+  656  ls
+  657  mkdir team3-finance-analysis/project_assignments_2
+  658  ls
+  659  cd team3-finance-analysis/
+  660  ls
+  661  rm project_assignments_2
+  662  ls
+  663  rm project_assignments_2
+  664  ls
+  665  cd
+  666  ls
+  667  rm project_assignments_2
+  668  cd team3-finance-analysis/
+  669  script project_assignment2_script.txt
+  670  ls
+  671  rm project_assignment2_script.txt 
+  672  ls
+  673  exit
+  674  script project_assignment2_script.txt
+  675  ls
+  676  rm project_assignment2_script.txt 
+  677  cd team3-finance-analysis/
+  678  ls
+  679  cd data/
+  680  ls
+  681  cat sample_1000.txt
+  682  cd
+  683  cd team3-finance-analysis/
+  684  ls
+  685  cat freq_education.txt 
+  686  rm freq_education.txt 
+  687  cat project_assignments_2/
+  688  script proj_script.txt
+  689  ls
+  690  rm proj_script.txt 
+  691  ls
+  692  script run_project2.sh 
+  693  cut -d ',' -f4 | sort | uniq -c | sort -nr > freq_education.txt
+  694  l
+  695  pwd
+  696  ls 
+  697  cd team3-finance-analysis
+  698  ls 
+  699  unzip -p steam-games-dataset.zip 
+  700  unzip -p steam-games-dataset.zip | cut -d ',' -f4 | sort | uniq -c | sort -nr > freq_education.txt
+  701  unzip -p steam-games-dataset.zip | cut -d ',' -f5 | sort | uniq -c | sort -nr > freq_status.txt
+  702  unzip -p steam-games-dataset.zip | cut -d $'\t' -f3 | sort | uniq -c | sort -nr | head -n 10
+  703  unzip -p steam-games-dataset.zip | cut -d ',' -f6 | sort -u > skinny_table.txt
+  704  unzip -p steam.zip | grep -i "action" | head -n 10
+  705  unzip -p steam-games-dataset.zip | cut -d ',' -f6 | sort -u > skinny_table.txt
+  706  unzip -p steam-games-dataset.zip | grep -v "free" | head -n 10
+  707  :wq
+  708  exit
+  709  ls
+  710  cd team3-finance-analysis/
+  711  ls
+  712  rm run_project2.sh 
+  713  ls
+  714  rm freq_education.txt 
+  715  ls
+  716  cd data
+  717  ls
+  718  cat sample_1000.txt 
+  719  cd
+  720  cd team3-finance-analysis/
+  721  script run_project2.sh
+  722  ls
+  723  cat run_project2.sh 
+  724  cd
+  725  exit
+  726  ls my_commands.txt
+  727  cat my_commands.txt 
+  728  ls
+  729  cat hw2
+  730  cat great_lines.txt 
+  731  ls 
+  732  ls
+  733  cd team3-finance-analysis/
+  734  ls
+  735  cat run_project2.sh 
+  736  exit
+  737  ls 
+  738  cd
+  739  ls team3-finance-analysis
+  740  script project_assignment_2.txt
+  741  ls 
+  742  cd team3-finance-analysis
+  743  ls
+  744  rm project_assignment_2.txt
+  745  ls
+  746  cd
+  747  rm project_assignment_2.txt
+  748  ls'
+  749  ;s
+  750  exit'
+  751  ls 
+  752  cd team3-finance-analysis/
+  753  ls
+  754  ls data
+  755  cat data
+  756  unzip -p steam-games-dataset.zip | shuf -n 1000
+  757  script project_assignments_2.txt
+  758  ls
+  759  ls freq_education.txt 
+  760  cat freq_education.txt 
+  761  rm freq_education.txt 
+  762  ls
+  763  rm project_assignments_2.txt 
+  764  ls
+  765  pwd
+  766  ls 
+  767  ls team3-finance-analysis
+  768  unzip -pexit
+  769  exit
+  770  ls
+  771  cd team3-finance-analysis/
+  772  ls
+  773  ls skinny_table.txt 
+  774  cat skinny_table.txt 
+  775  cat freq_status.txt 
+  776  cat freq_education.txt 
+  777  cat run_project2.sh 
+  778  ls
+  779  cat skinny_table.txt 
+  780  unzip -p steam-games-dataset.zip | cut -d $'\t' -f3 | sort | uniq -c | sort -nr | head -n 10
+  781   unzip -p steam-games-dataset.zip | grep -v "free" | head -n 10
+  782  ls 
+  783   unzip -p steam-games-dataset.zip | grep -v "free" | head -n 10
+  784  unzip -p steam-games-dataset.zip | grep -v "free" | head -n 10
+  785  ls
+  786  script -a project2_session.txt
+  787  ls
+  788  cat project2_session.txt 
+  789  ls
+  790  rm project2_session.txt 
+  791  ls
+  792  cat run_project2.sh 
+  793   unzip -p steam-games-dataset.zip | cut -d ',' -f4 | sort | uniq -c | sort -nr > freq_education.txt
+  794  cat
+  795  unzip -p steam-games-dataset.zip | cut -d ',' -f4 | sort | uniq -c | sort -nr > out/freq_education.txt 
+  796  exit
+  797  unzip -p steam-games-dataset.zip | cut -d ',' -f4 | sort | uniq -c > out/freq_education.txt 
+  798  exit
+  799  pwd
+  800  ls 
+  801  ls team3-finance-analysis/
+  802  cat freq_education.txt
+  803  cd team3-finance-analysis/
+  804  ls
+  805  cat freq_education.txt 
+  806  cat run_project2.sh 
+  807  script project2_session.txt
+  808  ls 
+  809  rm project2_session.txt 
+  810  ls
+  811  script project2_session.txt
+  812  ls
+  813  rm project2_session.txt 
+  814  exit
+  815  ls
+  816  pwd
+  817  cd team3-finance-analysis
+  818  ls
+  819  cat run_project2.sh 
+  820  ls
+  821  cat run_project2.sh 
+  822  exit
+  823  mkdir -p out
+  824  mkdir -p data/samples
+  825  unzip -p steam-games-dataset.zip | cut -d ',' -f4 | sort | uniq -c > out/freq_education.txt
+  826  unzip -p steam-games-dataset.zip | cut -d ',' -f5 | sortexit
+  827  exit
+  828  mkdir -p out
+  829  mkdir -p data/samples
+  830  unzip -p steam-games-dataset.zip | cut -d ',' -f4 | sort | uniq -c | sort -nr | tee out/freq_education.txt
+  831  unzip -p steam-games-dataset.zip | cut -d $'\t' -f3 | sort | uniq -c | sort -nr | head -n 10 > out/top_gender.txt
+  832  unzip -p steam-games-dataset.zip | cut -d ',' -f6 | sort -u > out/skinny_table.txt
+  833  exit
+  834  ls
+  835  cd team3-finance-analysis/
+  836  ls
+  837  cat data
+  838  ls out
+  839  ls 
+  840  cd team3-finance-analysis/
+  841  ls
+  842  cd data
+  843  mkdir -p results.txt
+  844  ls
+  845  mkdir -p error.txt
+  846  ls
+  847  cd out
+  848  cd ..
+  849  cd out
+  850  ls
+  851  cd data
+  852  cd ..
+  853  cd out
+  854  cd ..
+  855  cd data
+  856  ls
+  857  rm error.txt
+  858  rmdir error.txt
+  859  rm results.txt
+  860  rmdir results.txt/
+  861  ls
+  862  cd ..
+  863  ls
+  864  cd out
+  865  ls
+  866  mkdir results.txt
+  867  mkdir errors.txt
+  868  ls
+  869  some_command > results.txt 2> errors.txt
+  870  ls
+  871  cat freq_status.txt 
+  872  cat skinny_table.txt 
+  873  exit
+  874  lz
+  875  pwd
+  876  ls
+  877  cd team3-finance-analysis/
+  878  ls
+  879  cat run_project2.sh 
+  880  ls
+  881  script project2_session.txt
+  882  ls
+  883  cat out
+  884  rm out
+  885  rm project2_session.txt 
+  886  ls
+  887  rm out
+  888  ls
+  889  cd
+  890  ls
+  891  cd team3-finance-analysis/
+  892  ls
+  893  cat out
+  894  cd out
+  895  ls
+  896  rm out
+  897  cd ..
+  898  ls
+  899  cd out
+  900  ls
+  901  rm freq_education.txt 
+  902  ls
+  903  cd
+  904  ls
+  905  cd team3-finance-analysis/
+  906  ls
+  907  cat run_project2.sh 
+  908  ls
+  909  script project2_session.txt
+  910  ls
+  911  rm project2_session.txt 
+  912  ls
+  913  rm out
+  914  rmdir out
+  915  ls
+  916  cat run_project2.sh 
+  917  ls
+  918  script project2_session.txt
+  919  ls
+  920  cd out
+  921  ls
+  922  cd data
+  923  cd ..
+  924  ls
+  925  cd data
+  926  ls
+  927  cd team3-finance-analysis/
+  928  ls
+  929  cd 
+  930  git status
+  931  cd team3-finance-analysis/
+  932  git status
+  933  cd
+  934  git status
+  935  cd
+  936  cd team3-finance-analysis/
+  937  ls
+  938  git branch
+  939  exit
+  940  pwd
+  941  ls 
+  942  cd team3-finance-analysis/
+  943  git branch
+  944  .git
+  945  ls -a
+  946  git clone https://github.com/sjsu-cs131-f25/team3-finance-analysis
+  947  cd team3-finance-analysis/
+  948  mkdir project2
+  949  cd project2
+  950  git init
+  951  git status
+  952  git branch
+  953  git add .
+  954  git commit -m "Initial commit"
+  955  git remote add origin rm -rf .git
+  956  git init
+  957  ls -a
+  958  cd
+  959  ls
+  960  cd team3-finance-analysis/
+  961  ls
+  962  cd
+  963  ls
+  964  pwd
+  965  ls
+  966  find ~ -type d -name "project2"
+  967  ls
+  968  cd team3-finance-analysis/
+  969  ls
+  970  ls -a
+  971  git status
+  972  cd 
+  973  git status
+  974  exit
+  975  tmux new-session -s homework4
+  976  ls
+  977  cd
+  978  cd ..
+  979  exit
+  980  mkdir -p /mnt/scratch/CS131_jelenag/students/ashtonmoraes07/hw04
+  981  ls
+  982  mkdir -p /mnt/scratch/CS131_jelenag/students/ashtonmoraes07/hw04
+  983  ls 
+  984  cd /mnt/scratch/CS131_jelenag/students/ashtonm
+  985  ls
+  986  mkdir -p /mnt/scratch/CS131_jelenag/students/ashtonm/hw04
+  987  ls
+  988  cd /mnt/scratch/CS131_jelenag/students/ashtonm/hw04/
+  989  script hw04_session.txt
+  990  ls
+  991  rm hw04_session.txt 
+  992  ls'
+  993  cd
+  994  tmux new-session -s homework4
+  995  tmux_notes.txt
+  996  exit
+  997  ,
+  998  mkdir -p hw04
+  999  ls
+ 1000  rm hw04
+ 1001  mkdir hw04
+ 1002  rmdir hw04
+ 1003  ls
+ 1004  mkdir find_report.txt
+ 1005  touch notes.txt motel.txt noteA.md .bashrc fake.tsv
+ 1006  ls -1 note?.txt
+ 1007  find . -type f -name '*.tsv'
+ 1008  find $HOME -size +1M
+ 1009  find . -type f -ntime -1
+ 1010  find . -type f -mtime -1
+ 1011  unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > logs/a.log
+ 1012  mkdir -p logs
+ 1013  unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > logs/a.log
+ 1014  unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > logs/b.log
+ 1015  unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > logs/c.log
+ 1016  find logs -name '*.log' -exec wc -l {} \;
+ 1017  xargs
+ 1018  find logs -name '*.log' | xargs wc -l
+ 1019  mkdir regex_report.txt
+ 1020  (unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -n1 && unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | tail -n +2 | shuf -n 1000) > amazon_reviews_10k_random_hw4.tsv
+ 1021  grep -E -i "great(est|er)?" amazon_reviews_10k_random_hw4.tsv | wc -l
+ 1022  cut -f6 amazon_reviews_10k_random_hw4.tsv | grep -E '^[A-Z]' | head -n 20
+ 1023  cut -f6 amazon_reviews_10k_random_hw4.tsv | grep -E '^[A-Z]' | wc -l
+ 1024  cut -f6 amazon_reviews_10k_random_hw4.tsv | grep '[0-9]$' | wc -l
+ 1025  grep -i 'return' amazon_reviews_10k_random_hw4.tsv | wc -l
+ 1026  mkdir piplines_report.txt
+ 1027  cut -f8 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sort | uniq -c | sport -nr | head -n 20
+ 1028* 
+ 1029  cut -f8 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sort | uniq -c | sport -nr | tee out/hist_star_10k.txt
+ 1030  cut -f8 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sort | uniq -c | sort -nr | tee out/hist_star_10k.txt
+ 1031  cut -f58 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sort | uniq -c | awk '{print $2"\t"$1' > pid_counts_unsorted.tsv
+ 1032  cut -f58 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sort | uniq -c | awk '{print $2"\t"$}1' > pid_counts_unsorted.tsv
+ 1033  cut -f58 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sort | uniq -c | awk '{print $2"\t"$1}' > pid_counts_unsorted.tsv
+ 1034  sort -t $'\t' -k1,1 pid_counts_unsorted.tsv > pid_counts_sprted.tsv
+ 1035  cut -f5,6 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sort -t$'\t' -k1,1 | uniq > pid_title.tsv
+ 1036  sort -t$'\t' -k1,1 pid_title.tsv > pid_title_sorted.tsv
+ 1037  join -t$'\t' pid_counts_sorted.tsv pid_title_sorted.tsv
+ 1038  join -t$'\t' pid_counts_sorted.tsv pid_title_sorted.tsv > pid_joined.tsv
+ 1039  join -t$'\t' pid_counts_sprted.tsv pid_title_sorted.tsv > pid_joined.tsv
+ 1040  sort -t$'\t' -k2,2nr pid_joined.tsv | head -n 10 | tee out/top10_products.txt
+ 1041  ls
+ 1042  mkdir out
+ 1043  cd out
+ 1044  mkdir -p top10_products.txt
+ 1045  ls
+ 1046  cd ..
+ 1047  sort -t$'\t' -k2,2nr pid_joined.tsv | head -n 10 | tee out/top10_products.txt
+ 1048  ls -l out
+ 1049  rm -r out/top10_products.txt/
+ 1050  sort -t$'\t' -k2,2nr pid_joined.tsv | head -n 10 | tee out/top10_products.txt
+ 1051  tail -n +2 amazon_reviews_10k_random_hw4.tsv | head -n 5000 > first5k.tsv
+ 1052  tail -n +2 amazon_reviews_10k_random_hw4.tsv | head -n 5000 > last5k.tsv
+ 1053  cut -f5 first5k.tsv | sort | uniq > first5k.pids_sorted.txt
+ 1054  cut -f5 first5k.tsv | sort | uniq > last5k.pids_sorted.txt
+ 1055  cut -f5 last5k.tsv | sort | uniq > last5k.pids_sorted.txt
+ 1056  only_first=$(comm -23 first5k_pids_sorted.txt last5k.pids_sorted.txt | wc -l)
+ 1057  only_first=$(comm -23 first5k.pids_sorted.txt last5k.pids_sorted.txt | wc -l)
+ 1058  only_second=$(comm -13 first5k.pids_sorted.txt last5k.pids_sorted.txt | wc -l)
+ 1059  both=$(comm -12 first5k.pids_sorted.txt last5k.pids_sorted.txt | wc -l)
+ 1060  echo "only_first: $only_first"
+ 1061  echo "only_second: $only_second"
+ 1062  echo "both: $both"
+ 1063  mkdir -p ids/CUSTOMERS ids/PRODUCTS
+ 1064  cut -f2 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sort | uniq | shuf -n 3 > chosen_customers.txt
+ 1065  cut -f5 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sort | uniq | shuf -n 3 > chosen_products.txt
+ 1066  while read CID; do   awk -F$'\t' -v cid="$CID" 'NR>1 && $2==cid {print $8}' amazon_reviews_10k_random_hw4.tsv > ids/CUSTOMERS/"$CID".txt; done < chosen_customers.txt
+ 1067  while read PID; do   awk -F$'\t' -v pid="$PID" 'NR>1 && $5==pid {print $8}' amazon_reviews_10k_random_hw4.tsv > ids/PRODUCTS/"$PID".txt; done < chosen_products.txt
+ 1068  ls -l ids/CUSTOMERS ids/PRODUCTS
+ 1069  head -n 20 ids/CUSTOMERS/$(head -n1 chosen_customers.txt).txt
+ 1070  head -n 20 ids/PRODUCTS/$(head -n1 chosen_products.txt).txtls -l ids/CUSTOMERS ids/PRODUCTS
+ 1071  head -n 20 ids/CUSTOMERS/$(head -n1 chosen_customers.txt).txt
+ 1072  head -n 20 ids/PRODUCTS/$(head -n1 chosen_products.txt).txtls -l ids/CUSTOMERS ids/PRODUCTS
+ 1073  head -n 20 ids/CUSTOMERS/$(head -n1 chosen_customers.txt).txt
+ 1074  head -2- ids/CUSTOMERS/$(head -n1 chosen_customers.txt).txt
+ 1075  mkdir -p share
+ 1076  ls -ld share
+ 1077  chmod 770 share
+ 1078  ls -ld share
+ 1079  touch share/file1.txt share/file2.txt
+ 1080  mkdir -p share/subdir
+ 1081  ls -l share
+ 1082  chmod -R 770 share
+ 1083  ls -l share
+ 1084  ln share/file1.txt share/file1_hard.txt
+ 1085  ln -s file1.txt share/file1_symlink.txt
+ 1086  ls -li share
+ 1087  mkdir -p out/io_tests
+ 1088  printf "line1\n" > out/io_tests/test.txt
+ 1089  printf "line2\n" >> out/io_tests/test.txt
+ 1090  cat out/io_tests/test.txt
+ 1091  ls nonexistentfile 2> out/io_tests/stderr_only.txt
+ 1092  ls nonexistentfile &> out/io_tests/both_out_err.txt
+ 1093  printf "a\nb\nc\n" | tee out/io_tests/tee_save.txt | wc -l
+ 1094  history > hw04_history.txt

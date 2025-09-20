@@ -1,0 +1,253 @@
+Script started on 2025-09-19 21:19:15-04:00
+bash-4.4$ tmux new-session -s homeo[Kwork4
+[?1049h[22;0;0t[?1h=[H[2J[?12l[?25h[?1000l[?1002l[?1006l[?1005l[c(B[m[?12;25h[?12l[?25h[?1003l[?1006l[?2004l[1;1H[1;24r]112[1;1H[?25l[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:19 19-Sep-25(B[m[1;1H[?12l[?25h(B[m[?12;25h[?12l[?25h[?1003l[?1006l[?2004l[1;1H[1;24r[1;1H[?25l[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:19 19-Sep-25(B[m[1;1H[?12l[?25h[ashtonm@sjsu hw04]$ [?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:20 19-Sep-25(B[m[1;22H[?12l[?25hmkdir -p hw04
+[ashtonm@sjsu hw04]$ ls
+[34m[1mhw04(B[m  hw04_session.txt
+[ashtonm@sjsu hw04]$ rm hw04
+rm: cannot remove 'hw04': Is a directory
+[ashtonm@sjsu hw04]$ mkdir hw04
+mkdir: cannot create directory ‘hw04’: File exists
+[ashtonm@sjsu hw04]$ rmdir [?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:21 19-Sep-25(B[m[8;28H[?12l[?25hk[Khw04
+[ashtonm@sjsu hw04]$ ls
+hw04_session.txt
+[ashtonm@sjsu hw04]$ mkdir find_report.txt
+[ashtonm@sjsu hw04]$ [?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:22 19-Sep-25(B[m[12;22H[?12l[?25h[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:23 19-Sep-25(B[m[12;22H[?12l[?25h[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:24 19-Sep-25(B[m[12;22H[?12l[?25hmkdir [K[K[K[K[K[Ktouch touch notes.txt[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:25 19-Sep-25(B[m[12;43H[?12l[?25h[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knoe[Ktex[Ks.txt motel.txt note4[KA.md [K.bashrc[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:26 19-Sep-25(B[m[12;63H[?12l[?25h[K[K[K[K[K[K[K .bashr[K[K[K[K[K[K[K.bashrc fake.tsv[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K .bashrc fae[Kje[K[Kke.tsv
+[ashtonm@sjsu hw04]$ [?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:27 19-Sep-25(B[m[13;22H[?12l[?25hls -![K1 note?.[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:28 19-Sep-25(B[m[13;34H[?12l[?25htxt
+notes.txt
+[ashtonm@sjsu hw04]$ [?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:29 19-Sep-25(B[m[15;22H[?12l[?25h[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:30 19-Sep-25(B[m[15;22H[?12l[?25h[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:31 19-Sep-25(B[m[15;22H[?12l[?25h[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:32 19-Sep-25(B[m[15;22H[?12l[?25h[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:33 19-Sep-25(B[m[15;22H[?12l[?25h[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:34 19-Sep-25(B[m[15;22H[?12l[?25hdind[K[K[K[Kfind [K . -type f -hw04 "*.txtx"[K[K"[K[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:35 19-Sep-25(B[m[15;49H[?12l[?25h[K[K[K[K[K[K[K[K[K[K[Kname '*.txt[K[K[Ktsv'
+./fake.tsv
+[ashtonm@sjsu hw04]$ [?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:36 19-Sep-25(B[m[17;22H[?12l[?25hd[Kfind $HOME -sizze[K[Ke +1G[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:37 19-Sep-25(B[m[17;42H[?12l[?25h[K[K1MB[K
+/mnt/scratch/CS131_jelenag/students/ashtonm/hw03/amazon_reviews_10k_random.tsv
+/mnt/scratch/CS131_jelenag/students/ashtonm/hw03_outputs/amazon_reviews_multilingual_US_v1_00.tsv
+/mnt/scratch/CS131_jelenag/students/ashtonm/hw03_outputs/amazon_reviews_10k_random.tsv
+[1;23r[4S[19;1H/mnt/scratch/CS131_jelenag/students/ashtonm/ashton_moraes_HW_repo/hw03/amazon_reviews_multilingual_US_v1_00.tsv
+/mnt/scratch/CS131_jelenag/students/ashtonm/ashton_moraes_HW_repo/hw03/amazon_reviews_10k_random.tsv[1;24r[23;1H[1;23r[2S[21;1H/mnt/scratch/CS131_jelenag/students/ashtonm/ashton_moraes_HW_repo/.git/objects/7a/79a0461ded1d5bc4a9f15e4a68a2e979f0cbd0[1;24r[23;1H[1;23r[2S[21;1H/mnt/scratch/CS131_jelenag/students/ashtonm/ashton_moraes_HW_repo/.git/objects/pack/pack-5ba7fc60146eba8f6499f6e8ea8caccece67d64a.pack[1;24r[23;1H[1;23r[2S[21;1H/mnt/scratch/CS131_jelenag/students/ashtonm/team3-finance-analysis/steam-games-dataset.zip[1;24r[23;1H[1;23r[2S[21;1H/mnt/scratch/CS131_jelenag/students/ashtonm/team3-finance-analysis/personal-finance-ml-dataset[1;24r[23;1H[ashtonm@sjsu hw04]$ [?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:38 19-Sep-25(B[m[23;22H[?12l[?25hfind ? [K[K. -mti[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:39 19-Sep-25(B[m[23;33H[?12l[?25hme -1[K[K[K[K[K[K[K[Ktype f -[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:40 19-Sep-25(B[m[23;38H[?12l[?25hntime -1[1;23r[23;80H
+[1;24r[23;1H[1;23r[23;80H
+[22;1Hfind: unknown predicate `-ntime'[1;24r[23;1H[ashtonm@sjsu hw04]$ find . -type f -ntime -1[C[1P[1@m[7C[1;23r[23;80H
+[1;24r[23;1H[1;23r[6S[17;1H./noteA.md
+./notes.txt
+./fake.tsv
+./.bashrc
+./motel.txt
+./hw04_session.txt[1;24r[23;1H[ashtonm@sjsu hw04]$ [?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:41 19-Sep-25(B[m[23;22H[?12l[?25hunzip -p ... | head -1000 [?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:42 19-Sep-25(B[m[23;48H[?12l[?25h> logs/as[K.log[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmnt[K[K[K\[K/mnt/scratch/CS131_jelenag/students/ash[1;23r[2S[22;1Hashleyd/ ashtonm/ [1;24r[23;1H[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/students/ash[1;23r[2S[22;1Hashleyd/ ashtonm/ 
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/students/ash[1;24r[23;70H[K[Ksho[K[K[K[K[K[K[K[K[K[K[K[K[K[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:43 19-Sep-25(B[m[23;58H[?12l[?25hamazon_rev[1;23r[23;80H
+[22;68Hiews_multilinggual_US_v1_00.tsv.zip [1;24r[23;23H|[K[K[K[K[K[K }[K[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:44 19-Sep-25(B[m[23;19H[?12l[?25h|[K[K.zi[[Kp | head -1000 ?[K> logs/a.log[1;23r[23;80H
+[1;24r[23;1H[1;23r[23;80H
+[22;1H-bash: logs/a.log: No such file or directory[1;24r[23;1H[ashtonm@sjsu hw04]$ mkdir -p lo[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:45 19-Sep-25(B[m[23;33H[?12l[?25hgs[1;23r[23;80H
+[1;24r[23;1H[ashtonm@sjsu hw04]$ mkdir -p logs[1;23r[23;80H
+[22;22Hunzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilinggual_US_v1_00.tsv.zip | head -1000 > logs/a.log[1;24r[23;48H[1;23r[23;80H
+[1;24r[23;1H[ashtonm@sjsu hw04]$ [1;23r[23;80H
+[22;22Hunzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilinggual_US_v1_00.tsv.zip | head -1000 > logs/a.log[1;24r[23;48H[K[K[K[K[Kn[Kb.log[1;23r[23;80H
+[1;24r[23;1H[ashtonm@sjsu hw04]$ [1;23r[23;80H
+[22;22Hunzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilinggual_US_v1_00.tsv.zip | head -1000 > logs/b.log[1;24r[23;48H[K[K[K[K[Kc.log[1;23r[23;80H
+[1;24r[23;1H[ashtonm@sjsu hw04]$ find logs -name '*.log'[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:46 19-Sep-25(B[m[23;45H[?12l[?25h -esec[K[K[Kxec wc -l {} \;[1;23r[23;80H
+[1;24r[23;1H[1;23r[23;80H
+[22;1H1000 logs/c.log[1;24r[23;1H[1;23r[23;80H
+[22;1H1000 logs/b.log[1;24r[23;1H[1;23r[23;80H
+[22;1H1000 logs/a.log[1;24r[23;1H[ashtonm@sjsu hw04]$ xargs[1;23r[23;80H
+[1;24r[23;1H^[[A[?25l
+[30m[42m[homework40:xargs*                       "sjsu.pic2.isv.ihost.c" 21:47 19-Sep-25(B[m[23;5H[?12l[?25h^[[A        [1;23r[23;80H
+[1;24r[23;1H[?25l
+[30m[42m[homework40:xargs*                       "sjsu.pic2.isv.ihost.c" 21:48 19-Sep-25(B[m[23;1H[?12l[?25h[1;24r(B[m[?1l>[H[2J]112[?12l[?25h[?1000l[?1002l[?1006l[?1005l[?1049l[23;0;0t[detached (from session homework4)]
+bash-4.4$ tmux attach -t homework4
+[?1049h[22;0;0t[?1h=[H[2J[?12l[?25h[?1000l[?1002l[?1006l[?1005l[c(B[m[?12;25h[?12l[?25h[?1003l[?1006l[?2004l[1;1H[1;24r]112[23;1H[?25l[H./motel.txt[K
+./hw04_session.txt[K
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/students/ash          [K
+ashleyd/ ashtonm/[K
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/students/ash          [K
+ashleyd/ ashtonm/[K
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > logs/a.log                                [K
+-bash: logs/a.log: No such file or directory                                   [K
+[ashtonm@sjsu hw04]$ mkdir -p logs[K
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > logs/a.log                                [K
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > logs/b.log                                [K
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > logs/c.log                                [K
+[ashtonm@sjsu hw04]$ find logs -name '*.log' -exec wc -l {} \;                 [K
+1000 logs/c.log[K
+1000 logs/b.log[K
+1000 logs/a.log[K
+[ashtonm@sjsu hw04]$ xargs[K
+[K
+[K
+[30m[42m[homework40:xargs*                       "sjsu.pic2.isv.ihost.c" 21:48 19-Sep-25(B[m[23;1H[?12l[?25h(B[m[?12;25h[?12l[?25h[?1003l[?1006l[?2004l[1;1H[1;24r[23;1H[?25l[H./motel.txt[K
+./hw04_session.txt[K
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/students/ash          [K
+ashleyd/ ashtonm/[K
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/students/ash          [K
+ashleyd/ ashtonm/[K
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > logs/a.log                                [K
+-bash: logs/a.log: No such file or directory                                   [K
+[ashtonm@sjsu hw04]$ mkdir -p logs[K
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > logs/a.log                                [K
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > logs/b.log                                [K
+[ashtonm@sjsu hw04]$ unzip -p /mnt/scratch/CS131_jelenag/amazon_reviews_multilingual_US_v1_00.tsv.zip | head -1000 > logs/c.log                                [K
+[ashtonm@sjsu hw04]$ find logs -name '*.log' -exec wc -l {} \;                 [K
+1000 logs/c.log[K
+1000 logs/b.log[K
+1000 logs/a.log[K
+[ashtonm@sjsu hw04]$ xargs[K
+[K
+[K
+[30m[42m[homework40:xargs*                       "sjsu.pic2.isv.ihost.c" 21:48 19-Sep-25(B[m[23;1H[?12l[?25hasht    ashton[1;23r[23;80H
+[1;24r[23;1Hcd[1;23r[23;80H
+[1;24r[23;1H[?25l
+[30m[42m[homework40:xargs*                       "sjsu.pic2.isv.ihost.c" 21:49 19-Sep-25(B[m[23;1H[?12l[?25h^C[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:49 19-Sep-25(B[m[23;3H[?12l[?25h[1;23r[23;80H
+[1;24r[23;1H[ashtonm@sjsu hw04]$ xargs[5Dfind logs -name '*.log' -exec wc -l {} \;[1P[1P[1P[1P[1@x[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:50 19-Sep-25(B[m[23;44H[?12l[?25h' |[K[K | x [Karh[Kgs wc -l[1;23r[23;80H
+[1;24r[23;1H[1;23r[23;80H
+[22;1H   1000 logs/c.log[1;24r[23;1H[1;23r[23;80H
+[22;1H   1000 logs/b.log[1;24r[23;1H[1;23r[23;80H
+[22;1H   1000 logs/a.log[1;24r[23;1H[1;23r[23;80H
+[22;1H   3000 total[1;24r[23;1H[ashtonm@sjsu hw04]$ [?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:51 19-Sep-25(B[m[23;22H[?12l[?25h[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:52 19-Sep-25(B[m[23;22H[?12l[?25hmkdir regex_reports.txt[K[K[K[K[K.txt[1;23r[23;80H
+[1;24r[23;1H[ashtonm@sjsu hw04]$ [?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:53 19-Sep-25(B[m[23;22H[?12l[?25hunzip /mnt/scratch/CS131_ama[K[K[Kjelenag/ama[1;23r[23;80H
+[22;58Hzon_reviews_multilinguall_US_v1_00.tsv.zip [1;24r[23;20H| head -n1 && [K[K[K[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:54 19-Sep-25(B[m[23;31H[?12l[?25h[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[22;80H[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K(unzip -p /mnt/sc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir regex_report.txt[22Gfind logs -name '*.log' | xargs wc -l[22G[15Pmkdir regex_report.txt[22G[Kun[K[K(unzip -p /mnt/scratch/CS_131_[K[K[K[K[K131_jelenag/amazon_reviews_multilinngual_US_v1_00.tsv.zip [?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:55 19-Sep-25(B[m[23;24H[?12l[?25h| head -n1 && unzip -p /mnt/scratch/CS131_jelenag/ama[1;23r[23;80H
+[22;77Hzon_rreviews_multilingual_US_v1_00.tsv.zip [1;24r[23;39H| tail -n +2[K2 } [K[K| shuf -n 1000)[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:56 19-Sep-25(B[m[23;67H[?12l[?25h > amazon_rev[1;23r[23;80H
+[Ai [1;24r[23;1Hews[K[K[K[22;80H[K[K[Kevi ews_10k_random_hw4.tsv[1;23r[23;80H
+[1;24r[23;1H[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:57 19-Sep-25(B[m[23;1H[?12l[?25hgrep    [ashtonm@sjsu hw04]$ grep -E -i[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:58 19-Sep-25(B[m[23;32H[?12l[?25h "greates[K[K(est |[K[K|er)?" revoews.tsv[K[K[K[K[K[K[K[Kiews.tsv|less[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 21:59 19-Sep-25(B[m[23;66H[?12l[?25h[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kama[1;23r[23;80H
+[22;53Hzon_reviews_10k_random_hw4.tssv [1;24r[23;4H| wc -1[Kl[1;23r[23;80H
+[1;24r[23;1H[1;23r[23;80H
+[22;1H314[1;24r[23;1H[ashtonm@sjsu hw04]$ unzip -p ama[K[K[K[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:00 19-Sep-25(B[m[23;31H[?12l[?25h/mnt/scratch/CS131_Je[K[Kjelenag/aa[Kma[1;23r[23;80H
+[22;61Hzon_reviews_multilinggual_US_v1_00.tsv.zip [1;24r[23;23H| cut -d[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[22;80H[K
+[22;80H[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcu [Kt -f6 amazon_revoews[K[K[K[K[Kiews[K[K[K[Kviews_10[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:01 19-Sep-25(B[m[22;47H[?12l[?25hk_random_hw4.tsv | grep -E '^[A-X[KZ] ' | head -n 20[1;23r[23;80H
+[1;24r[23;1H[1;23r[15S[8;1HThe Complete Calvin and Hobbes [Box Set]
+Dredd
+Lonesome Dove
+Safe Haven
+Gone Girl: A Novel
+Mom's Family Calendar 2014
+The Dark Side Of The Moon Experience Edition (2011 - Remaster)
+Star Trek Into Darkness (Plus Bonus Features)
+Rodrick Rules (Diary of a Wimpy Kid, Book 2)
+The Eagles - Farewell 1 Tour - Live From Melbourne
+Orphan Black Season 1
+Ever After: A Cinderella Story
+Nerf Rebelle Sweet Revenge Dart Kit
+Ice Age Village
+The Little Prince[1;24r[23;1H[1;23r[6S[17;1HPleasantville
+Crossy Road
+Jazzplus: Hawkins! Eldridge! Hodges! Alive! + Alive! At The Village Gate!
+Downton Abbey Season 2
+Fifty Shades Trilogy Bundle: Fifty Shades of Grey; Fifty Shades Darker; Fifty Shades Freed[1;24r[23;1H[ashtonm@sjsu hw04]$ [?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:02 19-Sep-25(B[m[23;22H[?12l[?25hcu[K[K[1;23r[23;80H
+[22;22Hcut -f6 amazon_reviews_10k_random_hw4.tsv | grep -E '^[A-Z]'' | head -n 20[1;24r[23;15H[K[K[K[Kl[K[K[K[K[K[K[Kwc -l[1;23r[23;80H
+[1;24r[23;1H[1;23r[23;80H
+[22;1H983[1;24r[23;1H[ashtonm@sjsu hw04]$ cut -f6 a[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:03 19-Sep-25(B[m[23;31H[?12l[?25hmazon_reviews_10k_random_hw4.tsv | grep '[K"[K'[0-9]$'[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:04 19-Sep-25(B[m[23;79H[?12l[?25h [1;23r[23;80H
+[A| [1;24r[23;1H wc -l[1;23r[23;80H
+[1;24r[23;1H[1;23r[23;80H
+[22;1H68[1;24r[23;1H[ashtonm@sjsu hw04]$ cat [K[K[K[Kcut -f6 m[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:05 19-Sep-25(B[m[23;31H[?12l[?25h[Kamazon_reviews_10k_random_hw4.tsv | cat re[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrep -i "return[K[K[K[K[K[K[K'return' amazon_reviews_10k_random_hw4.tsv  > with[1;23r[23;80H
+[A_ [1;24r[23;1Hre[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:06 19-Sep-25(B[m[23;3H[?12l[?25hturn[K[K[K[K[K[K[22;80H[K
+[22;80H[K[K[K[K[K[K[K| wc -l
+[1;23r[23;80H
+[22;1H18[1;24r[23;1H[ashtonm@sjsu hw04]$ [?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:07 19-Sep-25(B[m[23;22H[?12l[?25hmkdir piplines-[K_reor[K[Kport.txt[1;23r[23;80H
+[1;24r[23;1H[ashtonm@sjsu hw04]$ [?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:08 19-Sep-25(B[m[23;22H[?12l[?25h[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:09 19-Sep-25(B[m[23;22H[?12l[?25h[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:10 19-Sep-25(B[m[23;22H[?12l[?25h[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:11 19-Sep-25(B[m[23;22H[?12l[?25h[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:12 19-Sep-25(B[m[23;22H[?12l[?25h[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:13 19-Sep-25(B[m[23;22H[?12l[?25hcut -f8 amazon_reviews_10k_random_hw4.tsv |[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:14 19-Sep-25(B[m[23;65H[?12l[?25h a[K[K tail -n +2 | s[1;23r[23;80H
+[Ao [1;24r[23;1H[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:15 19-Sep-25(B[m[23;1H[?12l[?25hrt | uniq -c ?[K| sprt[K[Kp[Kort -nr | head -n 20[1;23r[23;80H
+[1;24r[23;1H[1;23r[23;80H
+[22;1H-bash: sport: command not found[1;24r[23;1H[ashtonm@sjsu hw04]$ [1;23r[23;80H
+[22;22Hcut -f8 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sorrt | uniq -c | sport -nr | head -n 20[1;24r[23;38H[22;22H[C[C[C[C[C[C[C[C[2C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:16 19-Sep-25(B[m[22;54H[?12l[?25h[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@o[1@r[1@t[1;23r[23;80H
+[1;24r[23;1H[1;23r[5S[18;1H    623 5
+    181 4
+     78 3
+     63 1
+     55 2[1;24r[23;1H[ashtonm@sjsu hw04]$ [1;23r[23;80H
+[22;22Hcut -f8 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sorrt | uniq -c | sort -nr | head -n 20[1;24r[23;37H[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[22;80H[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khead -19[K0[?25l[24;1H[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:17 19-Sep-25(B[m[22;74H[?12l[?25h[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcut -f8 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sorrt | uniq -c | sport -nr | head -n 20[K[K[K[K[K[K[K[K[K[Ktee out/hist_star_10[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:18 19-Sep-25(B[m[23;48H[?12l[?25hk.txt[1;23r[23;80H
+[1;24r[23;1H[1;23r[23;80H
+[22;1H-bash: sport: command not found[1;24r[23;1H[1;23r[23;80H
+[22;1Htee: out/hist_star_10k.txt: No such file or directory[1;24r[23;1H[ashtonm@sjsu hw04]$ [1;23r[23;80H
+[22;22Hcut -f8 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sorrt | uniq -c | sport -nr | tee out/hist_star_10k.txt[1;24r[23;53H[1P[1;23r[23;80H
+[1;24r[23;1Htee: out/hist_star_10k.txt[1;23r[23;80H
+[22;27H: No such file or directory[1;24r[23;1H[1;23r[5S[18;1H    623 5
+    181 4
+     78 3
+     63 1
+     55 2[1;24r[23;1H[ashtonm@sjsu hw04]$ [1;23r[23;80H
+[22;22Hcut -f8 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | sorrt | uniq -c | sort -nr | tee out/hist_star_10k.txt[1;24r[23;52H[K[K[K[K[K[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:19 19-Sep-25(B[m[23;47H[?12l[?25h[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kw[Kawk '{print $2"\t"$1' > [?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:20 19-Sep-25(B[m[23;40H[?12l[?25hpid-counts[K[K[K[K[K[K[K_counts_unsorted.tsv[22;80H58 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | so[1@r[22;29H[23;64H[1;23r[23;80H
+[1;24r[23;1H[1;23r[2S[21;1Hawk: cmd. line:1: {print $2"\t"$1
+awk: cmd. line:1:                ^ unexpected newline or end of string[1;24r[23;1H[ashtonm@sjsu hw04]$ [1;23r[23;80H
+[22;22Hcut -f58 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | soort | uniq -c | awk '{print $2"\t"$1' > pid_counts_unsorted.tsv[1;24r[23;64H[?25l
+[30m[42m[homework40:bash*                        "sjsu.pic2.isv.ihost.c" 22:21 19-Sep-25(B[m[23;64H[?12l[?25h[C[1@}[28C[1;23r[23;80H
+[1;24r[23;1H[1;23r[2S[21;1Hawk: cmd. line:1: {print $2"\t"$}1
+awk: cmd. line:1:               ^ syntax error[1;24r[23;1H[ashtonm@sjsu hw04]$ [1;23r[23;80H
+[22;22Hcut -f58 amazon_reviews_10k_random_hw4.tsv | tail -n +2 | soort | uniq -c | awk '{print $2"\t"$}1
